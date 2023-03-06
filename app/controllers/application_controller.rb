@@ -25,19 +25,19 @@ end
       status 422
       { errors: budget.errors }.to_json
     end
-#   #Patch
+  #Patch
 
-#   #Delete
-#   # Define the delete budget route
-# delete "/budget/:id" do
-#   id = params[:id]
-#   budget = Budget.find_by(id: id)
-#   if budget.nil?
-#     status 404
-#     { error: "Budget with id #{id} not found" }.to_json
-#   else
-#     budget.destroy
-#     status 204
-#   end
-# end
-# end
+  #Delete
+  # Define the delete budget route
+delete "/budget/:id" do
+  id = params[:id]
+  budget = Budget.find_by(id: id)
+  if budget.nil?
+    status 404
+    { error: "Budget with id #{id} not found" }.to_json
+  else
+    budget.destroy
+    status 204
+  end
+end
+end
