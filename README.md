@@ -10,6 +10,8 @@
 Many people find it challenging to keep track of their finances, especially with the complexity of multiple bank accounts, credit cards, investments, and bills. There is a need for an efficient and user-friendly web-based financial management system that enables individuals to manage their finances conveniently from anywhere.
 
 The financial management system should provide a comprehensive platform for budget tracking, expense tracking, and investment tracking, as well as online bill payment and customized financial reporting. The system should also ensure secure access to users' financial information, with multi-factor authentication, data encryption, and user authentication.
+The goal of this project is to develop a web-based financial management system that enables users to manage their finances effectively and efficiently. The system should provide users with a user-friendly interface, comprehensive features for budgeting, expense tracking, and investment tracking, as well as online bill payment and customized financial reporting. The system should also ensure the security of users' financial information, with robust security features and comprehensive support for users
+
 ## Requirements
 
 For this project, you must:
