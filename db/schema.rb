@@ -18,12 +18,12 @@ ActiveRecord::Schema.define(version: 2023_03_02_085545) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "expenses", force: :cascade do |t|
-    t.string "name_of_expense"
-    t.float "amount"
-    t.integer "budget_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
+#   create_table "expenses", force: :cascade do |t|
+#     t.string "name_of_expense"
+#     t.float "amount"
+#     t.integer "budget_id"
+#     t.datetime "created_at", precision: 6, null: false
+#     t.datetime "updated_at", precision: 6, null: false
+#   end
 
-end
+# end
