@@ -1,3 +1,3 @@
-class Expense < ActiveRecord::Base
-    belongs_to :Budget
-end
+# class Expense < ActiveRecord::Base
+#     belongs_to :Budget
+# end
