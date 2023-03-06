@@ -14,17 +14,17 @@ class ApplicationController < Sinatra::Base
   end
 end
 
-#   #Post
-#   post "/budget" do
-#     request_body = JSON.parse(request.body.read)
-#     budget = Budget.new(request_body)
-#     if budget.save
-#       status 201
-#       budget.to_json
-#     else
-#       status 422
-#       { errors: budget.errors }.to_json
-#     end
+  #Post
+  post "/budget" do
+    request_body = JSON.parse(request.body.read)
+    budget = Budget.new(request_body)
+    if budget.save
+      status 201
+      budget.to_json
+    else
+      status 422
+      { errors: budget.errors }.to_json
+    end
 #   #Patch
 
 #   #Delete
