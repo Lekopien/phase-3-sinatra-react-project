@@ -7,13 +7,7 @@
 
 ## Introduction
 
-Congrats on getting through all the material for Phase 3! Now's the time to put
-it all together and build something from scratch to reinforce what you know and
-expand your horizons.
-
-The focus of this project is **building a Sinatra API backend** that uses
-**Active Record** to access and persist data in a database, which will be used
-by a separate **React frontend** that interacts with the database via the API.
+Many people find it challenging to keep track of their finances, especially with the complexity of multiple bank accounts, credit cards, investments, and bills. There is a need for an efficient and user-friendly web-based financial management system that enables individuals to manage their finances conveniently from anywhere.
 
 ## Requirements
 
