@@ -7,14 +7,14 @@
 
 ## Introduction
 
-Many people find it challenging to keep track of their finances, especially with the complexity of multiple bank accounts, credit cards, investments, and bills. There is a need for an efficient and user-friendly web-based financial management system that enables individuals to manage their finances conveniently from anywhere.
+~ Many people find it challenging to keep track of their finances, especially with the complexity of multiple bank accounts, credit cards, investments, and bills. There is a need for an efficient and user-friendly web-based financial management system that enables individuals to manage their finances conveniently from anywhere.
 
-The financial management system should provide a comprehensive platform for budget tracking, expense tracking, and investment tracking, as well as online bill payment and customized financial reporting. The system should also ensure secure access to users' financial information, with multi-factor authentication, data encryption, and user authentication.
-The goal of this project is to develop a web-based financial management system that enables users to manage their finances effectively and efficiently. The system should provide users with a user-friendly interface, comprehensive features for budgeting, expense tracking, and investment tracking, as well as online bill payment and customized financial reporting. The system should also ensure the security of users' financial information, with robust security features and comprehensive support for users
+~ The financial management system should provide a comprehensive platform for budget tracking, expense tracking, and investment tracking, as well as online bill payment and customized financial reporting. The system should also ensure secure access to users' financial information, with multi-factor authentication, data encryption, and user authentication.
+~ The goal of this project is to develop a web-based financial management system that enables users to manage their finances effectively and efficiently. The system should provide users with a user-friendly interface, comprehensive features for budgeting, expense tracking, and investment tracking, as well as online bill payment and customized financial reporting. The system should also ensure the security of users' financial information, with robust security features and comprehensive support for users
 
 ## Requirements
 
-For this project, you must:
+For this project
 
 - Use Active Record to interact with a database.
 - Have at least two models with a one-to-many relationship.
@@ -40,18 +40,11 @@ For this project, you must:
   should NOT be relying on filtering front end state or a separate fetch request to
   retrieve related data.
 
-For example, build a todo list application with a React frontend interface and a
-Sinatra backend API, where a user can:
 
-- **Create** a new todo
-- **Read** a list of all todos
-- **Update** an individual todo
-- **Delete** a todo
-
-A `Todo` can be tagged with a `Category`, so that each todo _belongs to_ a
-category and each category _has many_ todos.
 
 ## Getting Started
+
+
 
 ### Backend Setup
 
