@@ -6,13 +6,13 @@ class ApplicationController < Sinatra::Base
     { message: "Karibu shingapi!" }.to_json
   end
 
-#   #Get 
-#   get "/budget" do
-#     budgets = Budget.all
-#     budgets.to_json(include: :expenses)
+  #Get 
+  get "/budget" do
+    budgets = Budget.all
+    budgets.to_json(include: :expenses)
 
-#   end
-# end
+  end
+end
 
 #   #Post
 #   post "/budget" do
